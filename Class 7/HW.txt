@@ -5,3 +5,5 @@ FriendPairing 2
 Max Score
 All Palindromic Permutations
 Largest Number Possible After Atmost k swaps
+Lexicographical Numbers
+K Partitions
