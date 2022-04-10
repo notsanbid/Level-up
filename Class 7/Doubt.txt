@@ -1,0 +1,24 @@
+Why ?
+
+row[r] ^= mask;
+col[c] ^= mask;
+mat[r / 3][c / 3] ^= mask;
+
+And not
+row[r] |= mask;
+col[c] |= mask;
+mat[r / 3][c / 3] |= mask;
+
+------------------------------------------------------------------------------
+
+Update, This is also working :
+row[r] |= mask;
+col[c] |= mask;
+mat[r / 3][c / 3] |= mask;
+
+and 
+
+row[r] &= (~mask);
+col[c] &= (~mask);
+mat[r / 3][c / 3] &= (~mask);
+
