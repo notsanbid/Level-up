@@ -4,5 +4,4 @@ Goldmine 2
 FriendPairing 2
 Max Score
 All Palindromic Permutations
-All Palindromic Partitions
 Largest Number Possible After Atmost k swaps
