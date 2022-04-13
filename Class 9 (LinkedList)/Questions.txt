@@ -1,0 +1,8 @@
+Middle Node
+Reverse
+isPalindrome
+Merge two sorted LinkedList
+Fold of LinkedList
+Unfold
+
+Homework : Remove nth from last (pep)
