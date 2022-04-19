@@ -1,4 +1,4 @@
-public class LinkedListBasics {
+class LinkedListBasics {
     public class ListNode {
         int val;
         ListNode next;
@@ -80,7 +80,7 @@ public class LinkedListBasics {
 
     // 234
     public boolean isPalindrome(ListNode head) {
-        if (head == null && head.next == null)
+        if (head == null || head.next == null)
             return true;
 
         ListNode mid = midNode(head), nHead = mid.next;
@@ -106,7 +106,7 @@ public class LinkedListBasics {
 
     // 143
     public void reorderList(ListNode head) {
-        if (head == null && head.next == null)
+        if (head == null || head.next == null)
             return;
 
         ListNode mid = midNode(head), nHead = mid.next;
