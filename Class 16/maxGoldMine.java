@@ -13,11 +13,11 @@ public class maxGoldMine {
         for (int d = 0; d < dir.length; d++) {
             int r = sr + dir[d][0], c = sc + dir[d][1];
             if (r >= 0 && c >= 0 && r < dp.length && c < dp[0].length) {
-                maxCoin = Math.max(maxCoin, goldmine_memo(r, c, er, ec, arr, dp, dir) + arr[sr][sc]);
+                maxCoin = Math.max(maxCoin, goldmine_memo(r, c, er, ec, arr, dp, dir));
             }
         }
 
-        return dp[sr][sc] = maxCoin;
+        return dp[sr][sc] = maxCoin + arr[sr][sc];
     }
 
     public static int maxGold(int n, int m, int[][] arr) {
