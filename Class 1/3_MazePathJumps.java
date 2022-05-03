@@ -7,7 +7,7 @@ class MazePathJumps {
 
         int count = 0;
         for(int i = 0; i < dir.length; i++) {
-            // First Fix direction then dig deep
+            // First Fix direction then dig deep, this technique gets updated in DP
             for(int rad = 1; rad <= Math.max(er, ec); rad++){
                 int r = sr + rad*dir[i][0];
                 int c = sc + rad*dir[i][1];
