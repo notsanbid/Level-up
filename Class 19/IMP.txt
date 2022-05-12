@@ -1,0 +1,4 @@
+Didn't really grasp LongestCommonSubstring and LongestPalindromicSubstring
+
+Think and Solve yourself, else see solution from Lecture of 6th May 02:30:00 Time Stamp :
+https://practice.geeksforgeeks.org/problems/count-subsequences-of-type-ai-bj-ck4425/1
